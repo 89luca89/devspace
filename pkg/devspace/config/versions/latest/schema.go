@@ -1715,7 +1715,7 @@ type ProfileActivation struct {
 	Vars map[string]string `yaml:"vars,omitempty" json:"vars,omitempty"`
 }
 
-// PatchTarget describes a config patch and how it should be applied
+// PatchTarget describes a config patch and how it should be applied. Test123
 type PatchTarget struct {
 	// Target describes where to apply a config patch
 	Target      Target `yaml:"target" json:"target"`
