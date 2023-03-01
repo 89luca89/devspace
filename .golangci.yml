@@ -16,14 +16,14 @@ linters:
     - varcheck
     - staticcheck
     - errcheck
-    # - goimports
+    - goimports
     - dupl
     - nakedret
     - stylecheck
-    # - gofmt
-    # - golint
-    # - structcheck
-  
+    - gofmt
+    - golint
+    - structcheck
+
 linters-settings:
   gofmt:
     simplify: true
